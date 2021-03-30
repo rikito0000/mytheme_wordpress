@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 
 <head>
   <?php get_header(); ?>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
+
   <?php get_template_part('includes/header'); ?>
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/home-bg.jpg')">
